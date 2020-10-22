@@ -3,6 +3,11 @@ name = "dnt"
 version = "0.1.0"
 authors = ["Priyadarshan Giri <giripriyadarshan@gmail.com>"]
 edition = "2018"
+license = "MIT"
+description = "Simple date and time formatting using chrono crate"
+homepage = "https://crates.io/crates/dnt"
+repository = "https://github.com/giripriyadarshan/dnt"
+exclude = [".gitignore",".git/**",".git",".idea",".idea/**","target","target/**"]
 
 
 [dependencies]
