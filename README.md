@@ -7,8 +7,8 @@ usage
 println!("{}", DnT::date(Local)); //Local is for device's local time
 println!("{}", DnT::time(Local));
 println!("{}", DnT::dateandtime(Local));
-println!("{}", DnT::date(Timezone(5.5))); // time zone is for time-zone + towards east currently
-println!("{}", DnT::time(Timezone(5.5)));
-println!("{}", DnT::dateandtime(Timezone(5.5)));
+println!("{}", DnT::date(ZoneEast(5.5))); // for timezone towards east
+println!("{}", DnT::time(ZoneEast(5.5)));
+println!("{}", DnT::dateandtime(ZoneWest(5.5))); // for timezone towards west
 ```
 

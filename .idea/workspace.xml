@@ -21,9 +21,11 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca772b93-774d-4c1f-b3ba-cee7dce8f628" name="Default Changelist" comment="init">
+    <list default="true" id="ca772b93-774d-4c1f-b3ba-cee7dce8f628" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,17 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Giri Priyadarshan &lt;43517605+giripriyadarshan@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
@@ -69,17 +82,6 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
-      <option name="command" value="run" />
-      <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
-      <option name="backtrace" value="SHORT" />
-      <envs />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="build" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="build" />
@@ -100,6 +102,7 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -109,7 +112,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603390414865</updated>
-      <workItem from="1603390416790" duration="1051000" />
+      <workItem from="1603390416790" duration="1463000" />
+      <workItem from="1603393075629" duration="364000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1603390693304</created>
@@ -118,7 +122,28 @@
       <option name="project" value="LOCAL" />
       <updated>1603390693304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create README.md">
+      <created>1603391613259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603391613259</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1603391708892</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603391708892</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1603391745508</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603391745508</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,10 +159,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Create README.md" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="115" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603391272370">
@@ -148,26 +176,26 @@
       <screen x="0" y="87" width="1366" height="741" />
     </state>
     <state x="544" y="357" width="277" height="207" key="Github.ShareDialog/0.87.1366.741/1366.0.1440.900@0.87.1366.741" timestamp="1603390725358" />
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1603391563718">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1603391879885">
       <screen x="0" y="87" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.87.1366.741/1366.0.1440.900@0.87.1366.741" timestamp="1603391563718" />
-    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1603391563717">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.87.1366.741/1366.0.1440.900@0.87.1366.741" timestamp="1603391879885" />
+    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1603391879885">
       <screen x="0" y="87" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.center/0.87.1366.741/1366.0.1440.900@0.87.1366.741" timestamp="1603391563717" />
-    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1603391563717">
+    <state width="1320" height="172" key="GridCell.Tab.0.center/0.87.1366.741/1366.0.1440.900@0.87.1366.741" timestamp="1603391879885" />
+    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1603391879885">
       <screen x="0" y="87" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.left/0.87.1366.741/1366.0.1440.900@0.87.1366.741" timestamp="1603391563717" />
-    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1603391563717">
+    <state width="1320" height="172" key="GridCell.Tab.0.left/0.87.1366.741/1366.0.1440.900@0.87.1366.741" timestamp="1603391879885" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1603391879885">
       <screen x="0" y="87" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.right/0.87.1366.741/1366.0.1440.900@0.87.1366.741" timestamp="1603391563717" />
-    <state x="278" y="193" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603391651057">
+    <state width="1320" height="172" key="GridCell.Tab.0.right/0.87.1366.741/1366.0.1440.900@0.87.1366.741" timestamp="1603391879885" />
+    <state x="278" y="193" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603391752613">
       <screen x="0" y="87" width="1366" height="741" />
     </state>
-    <state x="278" y="193" width="800" height="535" key="Vcs.Push.Dialog.v2/0.87.1366.741/1366.0.1440.900@0.87.1366.741" timestamp="1603391651057" />
+    <state x="278" y="193" width="800" height="535" key="Vcs.Push.Dialog.v2/0.87.1366.741/1366.0.1440.900@0.87.1366.741" timestamp="1603391752613" />
     <state x="464" y="372" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603391220666">
       <screen x="0" y="87" width="1366" height="741" />
     </state>
